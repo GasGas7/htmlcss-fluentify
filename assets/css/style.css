@@ -32,7 +32,6 @@ header{
 nav{
     padding-top: 1rem;
 }
-
 nav>div{
     float: left;
 }
@@ -74,6 +73,7 @@ li>a{
     background-color:#0C325A;
 }
 /* /Nav class */
+
 /* Title class */
 .title{
     color: white;
@@ -97,15 +97,12 @@ li>a{
     font-size: 18px;
 }
 /* /Title class */
+
 /****************** /Header class ******************/
 
 
 /****************** Main class ******************/
-main{
-    height:1500px
-}
 /* Titile main */
-
 .title_main{
     background-color: #C4C4C4 ;
     text-align: center;
@@ -120,11 +117,12 @@ main{
     padding-top: 5px;
     color: #666666 ;
 }
-
 /* /Titile main */
 
 /* Column_raw1 main */
-
+.container.mainraw1{
+    height: 650px;
+}
 div>.column{
     width: 500px;
     margin-top: 70px;
@@ -132,20 +130,18 @@ div>.column{
     position: relative;
 }
     /* raw1-img class */
-
     .column.R>.img_R,.column.C>.img_C ,.column.L>.img_L{
     position: absolute;
     top:5%;
     left: 50%;
     transform: translateX(-50%);
-}
+    }
     .column.R>.img_R>img, .column.C>.img_C>img, .column.L>.img_L>img{
     height: 275px;
-}
+    }
     /* /raw1-img class */
 
     /* raw1-paragraph class */
-
     .paragrafo{
         width: 420px;
         position: absolute;
@@ -179,4 +175,47 @@ div>.column{
 
 /* /Column_raw1 main */
 
-/* Column_raw2 main */;
+hr{
+    margin-top: 30px;
+}
+
+/* Column_raw2 main */
+
+    /* raw-2 img class */
+    .container.mainraw2{
+        height: 600px;
+    }
+    .img_raw2, .paragraph_raw2{
+        width: 50%;
+        float: left;
+    }
+    .img_raw2>img{
+        margin-top: 40px;
+        margin-left:110px;
+        height: 500px;
+    }
+    /* /raw-2 img class */
+
+    /* raw-2 p class */
+    .paragraph_raw2>p{
+        margin: 40px 0px 20px 20px;
+    }
+    .paragraph_raw2>p:first-child{
+        font-size: 40px;
+        font-weight: 500;
+        width: 70%;
+    }
+    .paragraph_raw2>p:nth-child(2){
+        width: 60%;
+        color: #9A9A9A;
+    }
+    .paragraph_raw2>a{
+        display: block;
+        margin-top: 40px;
+        margin-left: 20px;
+    }
+    /* raw-2 p class */
+
+/* /Column_raw2 main */
+
+/****************** Main class ******************/
