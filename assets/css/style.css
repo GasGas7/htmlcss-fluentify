@@ -10,3 +10,61 @@
     clear:both;
     display: table;
 }
+.container{
+    width: 80%;
+    margin: auto;
+    position: relative;
+}
+
+/****************** Header class ******************/
+header{
+    height: 600px;
+    background-color: #0C325A;
+    background-image: url(../img/background-header.png);
+    background-position: 115% 120%;
+    background-repeat: no-repeat;
+    background-size: 1200px;
+    width: 100%;
+    min-width: 1400px;
+
+}
+
+/* Nav class */
+nav{
+    padding-top: 1rem;
+}
+
+nav>div{
+    float: left;
+}
+li{
+    display: block;
+    float: left; 
+}
+li>a{
+    padding-right: 30px;
+    text-decoration: none;
+}
+.menu_left{
+    height: 50px;
+    background-color: tomato;
+    line-height: 50px;
+    margin-left: 30%;
+    /* margin-right: 20%; */
+    
+}
+.menu_right{
+    height: 50px;
+    background-color: white;
+    line-height: 50px;
+    margin-left: 30%;
+}
+
+/* title class */
+
+.title{
+    height: 200px;
+    background-color: tomato;
+    width: 300px;
+    margin-top: 170px;
+}
