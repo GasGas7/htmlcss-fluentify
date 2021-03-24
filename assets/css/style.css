@@ -16,6 +16,7 @@
 }
 
 /****************** Header class ******************/
+
 header{
     height: 700px;
     background-color: #0C325A;
@@ -57,7 +58,6 @@ li>a{
     line-height: 50px;
     margin-left: 10%;
 }
-
 #btn_white{
     border: 1px solid white;
     padding: 8px 35px 8px 35px;
@@ -73,7 +73,6 @@ li>a{
 #btn_green:hover{
     background-color:#0C325A;
 }
-
 /* /Nav class */
 /* Title class */
 .title{
@@ -102,7 +101,9 @@ li>a{
 
 
 /****************** Main class ******************/
-
+main{
+    height:1500px
+}
 /* Titile main */
 
 .title_main{
@@ -119,56 +120,63 @@ li>a{
     padding-top: 5px;
     color: #666666 ;
 }
+
 /* /Titile main */
 
-/* Column main */
+/* Column_raw1 main */
+
 div>.column{
     width: 500px;
     margin-top: 70px;
-    border:1px solid white;
     float: left;
     position: relative;
 }
+    /* raw1-img class */
 
-.column.R>.img_R,.column.C>.img_C ,.column.L>.img_L{
+    .column.R>.img_R,.column.C>.img_C ,.column.L>.img_L{
     position: absolute;
     top:5%;
     left: 50%;
     transform: translateX(-50%);
 }
-.column.R>.img_R>img, .column.C>.img_C>img, .column.L>.img_L>img{
+    .column.R>.img_R>img, .column.C>.img_C>img, .column.L>.img_L>img{
     height: 275px;
 }
+    /* /raw1-img class */
 
-.paragrafo{
-    width: 420px;
-    position: absolute;
-    top: 300px;
-    left: 50%;
-    transform: translateX(-50%);
-}
+    /* raw1-paragraph class */
 
-.text_title{
-    text-align: center;
-    margin: 20px auto;
-    font-size: 20px;
-    color: #7CBB02 ;
-    
-}
-.text{
-    margin: 50px auto;
-    text-align: -webkit-center;
-    font-size: 20px;
-    color: #9A9A9A;
-}
-.line::after{
-    content: " ";
-    display: block;
-    height: 2px;
-    background: #9A9A9A;
-    width: 100px;
-    margin-top: 25px;
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-}
+    .paragrafo{
+        width: 420px;
+        position: absolute;
+        top: 300px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .text_title{
+        text-align: center;
+        margin: 20px auto;
+        font-size: 20px;
+        color: #7CBB02 ;  
+    }
+    .text{
+        margin: 50px auto;
+        text-align: -webkit-center;
+        font-size: 20px;
+        color: #9A9A9A;
+    }
+    .line::after{
+        content: " ";
+        background: #9A9A9A;
+        height: 2px;
+        width: 100px;
+        margin-top: 25px;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    /* /raw1-paragraph class */
+
+/* /Column_raw1 main */
+
+/* Column_raw2 main */;
