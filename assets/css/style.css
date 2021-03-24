@@ -120,5 +120,49 @@ li>a{
     padding-top: 5px;
     color: #666666 ;
 }
+/* /Titile main */
 
+/* Column main */
+div>.column{
+    width: 500px;
+    height: 900px;
+    background-color: teal;
+    border:1px solid white;
+    float: left;
+    position: relative;
+}
 
+.column.R>.img_R,.column.C>.img_C ,.column.L>.img_L{
+    position: absolute;
+    top:10%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.column.R>.img_R>img, .column.C>.img_C>img, .column.L>.img_L>img{
+    height: 275px;
+}
+
+.paragrafo{
+    width: 400px;
+    height: 500px;
+    background-color: tomato;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.text_title{
+    width: 100px;
+    height: 150px;
+    background-color: black;
+    margin: 20px auto;
+    
+}
+.text{
+    width: 100px;
+    height: 150px;
+    background-color: black;
+    margin: 20px auto;
+
+}
