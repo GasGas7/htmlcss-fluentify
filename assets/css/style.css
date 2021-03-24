@@ -3,6 +3,7 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    font-family: "Roboto", sans-serif;
 }
 
 .clearfix::after{
@@ -18,12 +19,12 @@
 
 /****************** Header class ******************/
 header{
-    height: 600px;
+    height: 650px;
     background-color: #0C325A;
     background-image: url(../img/background-header.png);
-    background-position: 115% 120%;
+    background-position: 120% 200%;
     background-repeat: no-repeat;
-    background-size: 1200px;
+    background-size: 1400px;
     width: 100%;
     min-width: 1400px;
 
@@ -42,29 +43,61 @@ li{
     float: left; 
 }
 li>a{
-    padding-right: 30px;
+    padding: 8px 19px;
     text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    font-size: 14px;
+    text-align: center;
+    margin-right: 10px;
+    border-radius: 10px;
 }
 .menu_left{
-    height: 50px;
-    background-color: tomato;
     line-height: 50px;
-    margin-left: 30%;
-    /* margin-right: 20%; */
-    
+    margin-left: 5%;
 }
 .menu_right{
-    height: 50px;
-    background-color: white;
     line-height: 50px;
-    margin-left: 30%;
+    margin-left: 10%;
 }
 
-/* title class */
+#btn_white{
+    border: 1px solid white;
+    padding: 8px 35px 8px 35px;
+}
+#btn_white:hover{
+    background-color:  #7CBB02;
+}
+#btn_green{
+    border: 1px solid #7CBB02;
+    background-color: #7CBB02;
+    margin-left: 15px;
+}
+#btn_green:hover{
+    background-color:#0C325A;
+}
 
+/* /Nav class */
+/* Title class */
 .title{
-    height: 200px;
-    background-color: tomato;
-    width: 300px;
+    color: white;
+    width: 750px;
     margin-top: 170px;
 }
+.title>p{
+    font-size: 3.5rem;
+}
+.button_title{
+    margin-top: 50px;
+}
+.button_title>a{
+    padding: 25px 20px;
+    border: 1px solid #7CBB02;
+    background-color: #7CBB02;
+    color: white;
+    border-radius: 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+/* /Title class */
