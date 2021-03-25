@@ -222,12 +222,12 @@ hr{
 
 /****************** Footer class ******************/
 footer{
-    height: 160px;
-    background-color: #666666;
+    height: 220px;
+    background-color: #C4C4C4;
 }
 .footerdiv{
     /* line-height: 150px; poi va tolta altezza a footer */
-    padding-top: 20px;
+    padding-top: 85px;
 }
 #foot_span1{
     margin-left: 15%;
@@ -245,7 +245,7 @@ footer{
     font-size: 25px;
     font-weight: 500;
     border: 0px;
-    background: #666666bb;
+    background: #C4C4C4;
     border-bottom: 1px solid grey;
     color: #9A9A9A;
 }
