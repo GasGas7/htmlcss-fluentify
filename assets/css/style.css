@@ -173,7 +173,6 @@ div>.column{
         width: 100px;
         margin-top: 25px;
         position: absolute;
-        left: 50%;
         transform: translateX(-50%);
     }
 
