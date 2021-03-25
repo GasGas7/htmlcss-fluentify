@@ -69,7 +69,7 @@ li>a{
     background-color: #7CBB02;
     margin-left: 15px;
 }
-#btn_green:hover{
+.button_title>a:hover, #btn_green:hover{
     background-color:#0C325A;
 }
 /* /Nav class */
@@ -239,6 +239,10 @@ footer{
     margin-left: 20%;
     padding-right: 20px;
     color: #9A9A9A;
+}
+#show_plan:hover, #help:hover{
+    background-color:#0C325A;
+    border: 2px solid #7CBB02;
 }
 #selector{
     margin-right: 20px;
